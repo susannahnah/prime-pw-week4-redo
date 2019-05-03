@@ -1,13 +1,15 @@
-console.log( 'js' );
 let parkedCars = [];
 //created empty array
 const maxCars = 27;
 //created max number of cars allowed
-let freeSpace = true;
 
 function parkCar(randomCar){
-  if (parkedCars.length < maxCars ){
+  //defining the name of our function
+  if (parkedCars.length < maxCars )
+  //looking at garage space
+  {
     parkedCars.push(randomCar);
+    //pushing random car into garage if space
     return true;
   }
   else{
