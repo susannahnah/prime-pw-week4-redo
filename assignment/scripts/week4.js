@@ -18,3 +18,10 @@ function parkCar(randomCar){
     return false;
   };
 }
+
+//test function
+console.log(parkedCars);
+
+parkCar('Honda Accord');
+parkCar('Tesla');
+parkCar('BMW 5-Series');
