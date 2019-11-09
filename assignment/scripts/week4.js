@@ -1,3 +1,6 @@
+console.log('hello world!');
+
+
 
 //created empty array
 
