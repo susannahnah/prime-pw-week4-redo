@@ -25,3 +25,14 @@ console.log(parkedCars);
 parkCar('Honda Accord');
 parkCar('Tesla');
 parkCar('BMW 5-Series');
+
+
+//stretch goals
+
+//create isParkedHere function that receives a car
+//returns true if car is parked
+//else return false if not in garage
+
+funciton isParkedHere(car) {
+   if (car 
+}
